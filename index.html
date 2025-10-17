@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ananya Pochinapeddi - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="#" class="logo">Ananya Pochinapeddi</a>
+        <ul>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-box">
+            <h1>Ananya Pochinapeddi</h1>
+            <p class="hero-subtitle">UI/UX Designer</p>
+            <p class="hero-university">Northeastern University</p>
+            <p class="hero-university">Available for Co-Op: January - June 2026</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="projects-container">
+            <h2>Browse My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" onclick="openModal('blueHorizon')">
+                    <div class="project-image">
+                        <!-- Add image here: <img src="blue-horizon.jpg" alt="Blue Horizon"> -->
+                    </div>
+                    <div class="project-content">
+                        <h3>Blue Horizon</h3>
+                        <p class="project-description">An interactive installation visualizing the impact of rising sea levels along Boston's Esplanade.</p>
+                        <div class="project-skills">
+                            <span class="skill-pill">Figma</span>
+                            <span class="skill-pill">Procreate</span>
+                            <span class="skill-pill">Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" onclick="openModal('evently')">
+                    <div class="project-image">
+                        <!-- Add image here: <img src="evently.jpg" alt="Evently"> -->
+                    </div>
+                    <div class="project-content">
+                        <h3>Evently</h3>
+                        <p class="project-description">A mobile app helping college students discover campus events through a Tinder-like swipe interface.</p>
+                        <div class="project-skills">
+                            <span class="skill-pill">React</span>
+                            <span class="skill-pill">Node.js</span>
+                            <span class="skill-pill">Figma</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" onclick="openModal('mbtaflow')">
+                    <div class="project-image">
+                        <!-- Add image here: <img src="mbta-flow.jpg" alt="MBTA Flow"> -->
+                    </div>
+                    <div class="project-content">
+                        <h3>MBTA Flow</h3>
+                        <p class="project-description">A redesign of the MBTA app creating a more intuitive and accessible transit experience.</p>
+                        <div class="project-skills">
+                            <span class="skill-pill">Figma</span>
+                            <span class="skill-pill">Photoshop</span>
+                            <span class="skill-pill">UI Design</span>
+                        </div>
+                    </div>
+                </div>
+            <!--
+                <div class="project-card" onclick="openModal('TypeSpecimen')">
+                    <div class="project-image">
+                        <img src="" alt="Type Specimen">
+                    </div>
+                    
+                    <div class="project-content">
+                        <h3>Type Specimen</h3>
+                        <p class="project-description">Created Type Speciment</p>
+                        <div class="project-skills">
+                            <span class="skill-pill">Adobe InDesign</span>
+                            <span class="skill-pill">Photoshop</span>
+                        </div>
+                    </div>
+                -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="profile-image">
+                <img src="about-image.png" alt="Ananya Pochinapeddi">
+            </div>
+
+            <div class="about-content">
+                <h3>Hello, I'm Ananya Pochinapeddi, a second-year Computer Science and Design student at Northeastern University.</h3>
+
+                <p>I'm a designer and developer passionate about creating thoughtful and user-centered digital experiences. I enjoy combining design and technology to build projects that are both functional and visually engaging.</p>
+
+                <p>My work focuses on designing intuitive interfaces and developing solutions that make interacting with technology feel natural and meaningful. I've worked with tools like Figma, React, and various Adobe Creative Suite applications to bring ideas to life.</p>
+
+                <p>I'm currently looking for my first full-time design role and would love to learn about new opportunities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2>My Experience / Skills</h2>
+        <div class="skills-box">
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript, React, Node.js</p>
+                </div>
+                <div class="skill-item">
+                    <h3>UI/UX Design</h3>
+                    <p>Figma, Adobe XD, User Research</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Programming</h3>
+                    <p>Python, Java</p>
+                </div>
+                <div class="skill-item">
+                    <h3>Design Tools</h3>
+                    <p>Illustrator, Photoshop, InDesign, Procreate</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Footer -->
+    <footer id="contact">
+        <h2>Contact Me</h2>
+        <div class="footer-content">
+            <p>I am always interested in new opportunities and collaborations.</p>
+            <div class="buttons">
+                <a href="mailto:ananyapv06@gmail.com" class="btn">Email</a>
+                <a href="https://www.linkedin.com/in/ananya-pochinapeddi" target="_blank" rel="noopener noreferrer" class="btn">LinkedIn</a>
+                <a href="Resume (2).pdf" target="_blank" rel="noopener noreferrer" class="btn">Resume</a>
+                <a href="Design Portfolio (1).pdf" target="_blank" rel="noopener noreferrer" class="btn">PDF Portfolio</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Blue Horizon Modal -->
+    <div id="blueHorizon" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal()">&times;</button>
+            <h2>Blue Horizon</h2>
+            <p class="project-subtitle">Designer | May - June 2025</p>
+            
+            <div class="modal-section">
+                <h3>Overview</h3>
+                <p>Blue Horizon is a team project created for our Designing Interactive Experiences class. We were challenged to design an interactive installation that focuses on a present issue. Our project visualizes the impact of rising sea levels along Boston's Esplanade.</p>
+            </div>
+
+            <div class="modal-section">
+                <h3>Problem</h3>
+                <p>Climate change is a pressing issue in our time, but it can feel distant or invisible in our everyday life. We wanted to design this experience to make its impact real and relatable, helping people visualize how rising sea levels could transform familiar spaces like the Esplanade and inspire a deeper sense of environmental awareness.</p>
+            </div>
+
+            <div class="modal-section">
+                <h3>Color Scheme</h3>
+                <div class="color-scheme">
+                    <div>
+                        <div class="color-box" style="background: #FBFAF8;"></div>
+                        <span class="color-code">RGB: 251, 250, 248<br>HEX: #FBFAF8</span>
+                    </div>
+                    <div>
+                        <div class="color-box" style="background: #B4EEE7;"></div>
+                        <span class="color-code">RGB: 180, 238, 231<br>HEX: #B4EEE7</span>
+                    </div>
+                    <div>
+                        <div class="color-box" style="background: #3DAFB5;"></div>
+                        <span class="color-code">RGB: 61, 175, 181<br>HEX: #3DAFB5</span>
+                    </div>
+                    <div>
+                        <div class="color-box" style="background: #69A297;"></div>
+                        <span class="color-code">RGB: 105, 162, 151<br>HEX: #69A297</span>
+                    </div>
+                    <div>
+                        <div class="color-box" style="background: #332C23;"></div>
+                        <span class="color-code">RGB: 51, 44, 35<br>HEX: #332C23</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="modal-section">
+                <h3>Sketches</h3>
+                <div class="image-gallery">
+                    <figure class="gallery-item gallery-item-full">
+                        <img src="blue horizon sketches.png" alt="sketch">
+                    </figure>
+                </div>
+            </div>
+
+            <div class="modal-section">
+                <h3>Concept</h3>
+                <p>We structured the project around three time-based experiences:</p>
+                <ul>
+                    <li><strong>1 Hour Experience:</strong> A short tour that immerses users in the Esplanade's current landscape and ecological conditions</li>
+                    <li><strong>10 Year Experience:</strong> A floating zinc boat installation to visit the sight after 10 years</li>
+                    <li><strong>100 Year Experience:</strong> A bronze sculpture that imagines a future shaped by rising seas</li>
+                </ul>
+            </div>
+
+
+            <div class="modal-section">
+                <h3>Images</h3>
+                <div class="image-gallery">
+                    <figure class="gallery-item gallery-item-full">
+                        <video autoplay loop muted playsinline>
+                            <source src="arsimulation1hrexperience.mp4" type="video/mp4">
+                        </video>
+                        <figcaption>This is a mock AR simulation for the 1 hour experience. Shows how the water level has risen from 1975 and how it might look in the future.</figcaption>                    
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img src="blue horizon ad.png" alt="sketch">
+                        <figcaption>Advertisement created for the 1 hour event</figcaption>
+                    </figure>
+
+                    <figure class="gallery-item">
+                        <img src="esplanademap.jpg" alt="esplanademap">
+                        <figcaption>Areas of the Esplanade with QR codes to watch the AR simulation</figcaption>
+                    </figure>
+                    
+                    <figure class="gallery-item gallery-item-full">
+                        <img src="10 year experience shots.png" alt="10 year design">
+                        <figcaption>The 10 year installation is a zinc boat. Over the course of 10 years the boat slowly starts to erode until one day it breaks and falls into the water.</figcaption>
+                    </figure>
+                    
+                    <figure class="gallery-item gallery-item-full">
+                        <img src="100 year experience.png" alt="100 year design">
+                        <figcaption>The 100 year installation is 4 statues of people playing in the water. As the years go by, the water level rises and they slowly start to drown.</figcaption>                    
+                    </figure>
+
+                    
+                </div>
+            </div>
+
+
+            <div class="modal-section">
+                <h3>Prototype</h3>
+                <div class="figma-embed">
+                    <iframe 
+                        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FKcbn9QInG38J10Ez6tEHqb%2FUntitled%3Fnode-id%3D16-340%26p%3Df%26t%3DC2Xvg8ejzwUMr39i-1%26scaling%3Dscale-down%26content-scaling%3Dfixed%26page-id%3D0%253A1%26starting-point-node-id%3D16%253A340" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="modal-section">
+                <h3>Key Takeaways</h3>
+                <p>Through Blue Horizon, I learned how powerful design can be in making environmental issues feel personal. 
+                    Our team's interactive installation translated abstract data about rising sea levels into an emotional, visual experience. 
+                    This project strengthened my skills in conceptual design, visual storytelling, and communication.
+                    It showed me how design can inspire awareness and empathy</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Evently Modal -->
+    <div id="evently" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal()">&times;</button>
+            <h2>Evently</h2>
+            <p class="project-subtitle">Developer and Designer | January - April 2026</p>
+            
+            <div class="modal-section">
+                <h3>Overview</h3>
+                <p>Evently is a team project where I contributed as a designer and developer. This project was created using React and Node.js to help college students discover campus events that match their interests.</p>
+            </div>
+
+            <div class="modal-section">
+                <h3>Problem</h3>
+                <p>College students often struggle to discover events on their campus that fit their interests or schedule. Many students miss opportunities to engage with clubs, social activities, and workshops, which can impact their sense of community. We wanted to design an experience that makes event discovery intuitive, personalized, and engaging, helping students connect with their campus community more effectively.</p>
+            </div>
+
+            <div class="modal-section">
+                <h3>Concept</h3>
+                <p>The app was designed as a Tinder-like experience for events, allowing students to swipe through upcoming activities on campus. It curates a personalized feed based on each student's interests and preferences, making it easy to discover events that feel relevant and exciting. Evently also supports quick RSVP and calendar integration, along with social features for sharing and discussing events.</p>
+            </div>
+
+            <div class="modal-section">
+                <h3>Color Scheme</h3>
+                <div class="color-scheme">
+                    <div>
+                        <div class="color-box" style="background: #FFFFFF;"></div>
+                        <span class="color-code">RGB: 255, 255, 255<br>HEX: #FFFFFF</span>
+                    </div>
+                    <div>
+                        <div class="color-box" style="background: #F77979;"></div>
+                        <span class="color-code">RGB: 247, 121, 121<br>HEX: #F77979</span>
+                    </div>
+                    <div>
+                        <div class="color-box" style="background: #CC0000;"></div>
+                        <span class="color-code">RGB: 204, 0, 0<br>HEX: #CC0000</span>
+                    </div>
+                    <div>
+                        <div class="color-box" style="background: #000000;"></div>
+                        <span class="color-code">RGB: 0, 0, 0<br>HEX: #000000</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-section">
+                <h3>Key Features</h3>
+                <ul>
+                    <li>Swipe-based event discovery interface</li>
+                    <li>Personalized event recommendations</li>
+                    <li>Club management and scheduling</li>
+                    <li>In-app chat for event coordination</li>
+                    <li>Calendar integration</li>
+                </ul>
+            </div>
+
+             <div class="modal-section">
+                <h3>Mock-Ups</h3>
+                <div class="image-gallery">
+                    <figure class="gallery-item gallery-item-full">
+                        <img src="evently pg 1.png" alt="mockup">
+                    </figure>
+
+                    <figure class="gallery-item gallery-item-full">
+                        <img src="evently pg 2.png" alt="mockup">
+                    </figure>
+
+                    <figure class="gallery-item gallery-item-full">
+                        <img src="evently pg 3.png" alt="mockup">
+                    </figure>
+                    
+                </div>
+            </div>
+
+            <div class="modal-section">
+                <h3>Demo</h3>
+                <div class="demo-container">
+                    <div class="demo-video">
+                        <video autoplay loop muted playsinline>
+                            <source src="Evently Demo Video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="demo-caption">
+                        <p>This is a demo for the Evently App. 
+                            It starts off with a login page and then takes you to the Events page. 
+                            Here you can add events to your calendar and create new events. 
+                            The Profile page has your clubs and your interests. 
+                            You can also change your name and major in the input fields. 
+                            The calendar page has the option to create a new calendar in your calendar app and you can view all of your events here.
+                            The chat page allows users to interact with each other.</p>
+                    </div>
+                </div>
+            </div>
+           
+
+            <div class="modal-section">
+                <h3>Key Takeaways</h3>
+                <p>Evently taught me how thoughtful UX design can build stronger communities. 
+                    By designing this app, I learned to balance functionality with engagement to make it easier for students to discover and connect with activities that match their interests. 
+                    This project deepened my understanding of user research, responsive design, and how small interactions can create meaningful social impact.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- MBTAFlow Modal -->
+    <div id="mbtaflow" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal()">&times;</button>
+            <h2>MBTAFlow</h2>
+            <p class="project-subtitle">Designer | February 2025</p>
+            
+            <div class="modal-section">
+                <h3>Overview</h3>
+                <p>MBTAFlow was created for my Design Processes and Practices class. We were challenged to redesign the existing MBTA App in Figma to create a more intuitive and accessible transit experience.</p>
+            </div>
+
+            <div class="modal-section">
+                <h3>Problem</h3>
+                <p>The existing MBTA app provides essential transit information but often feels cluttered, unintuitive, and inconsistent across features. Many users, especially new riders and students, struggle to plan trips efficiently, access live updates, or find key options like ticketing and accessibility settings.</p>
+            </div>
+
+            <div class="modal-section">
+                <h3>Key Insights</h3>
+                <ul>
+                    <li>Users found it difficult to locate ticketing and trip history</li>
+                    <li>The interface lacked clarity and hierarchy in displaying map data</li>
+                    <li>Accessibility and personalization features were limited or buried in menus</li>
+                </ul>
+            </div>
+
+            <div class="modal-section">
+                <h3>Solution</h3>
+                <p>I redesigned the MBTA app to create a more cohesive, user-friendly, and accessible experience. The redesign features a simplified navigation system, improved visibility of real-time travel information, and enhanced accessibility options, all while maintaining the familiar MBTA identity.</p>
+            </div>
+
+             <div class="modal-section">
+                <h3>Color Scheme</h3>
+                <div class="color-scheme">
+                    <div>
+                        <div class="color-box" style="background: #FFFFFF;"></div>
+                        <span class="color-code">RGB: 255, 255, 255<br>HEX: #FFFFFF</span>
+                    </div>
+                    <div>
+                        <div class="color-box" style="background: #D5EBF4;"></div>
+                        <span class="color-code">RGB: 213, 235, 244<br>HEX: #D5EBF4</span>
+                    </div>
+                    <div>
+                        <div class="color-box" style="background: #58B2D3;"></div>
+                        <span class="color-code">RGB: 88, 178, 211<br>HEX: #58B2D3</span>
+                    </div>
+                    <div>
+                        <div class="color-box" style="background: #06436A;"></div>
+                        <span class="color-code">RGB: 6, 67, 106<br>HEX: #06436A</span>
+                    </div>
+                </div>
+            </div>
+
+           <div class="modal-section">
+                <h3>Mocks</h3>
+                <div class="image-gallery">
+                    <figure class="gallery-item">
+                        <img src="MBTA Flow Mockups.png" alt="sketch">
+                    </figure>
+
+                    
+                </div>
+            </div>
+
+            <div class="modal-section">
+                <h3>Prototype</h3>
+                <div class="figma-embed">
+                    <iframe 
+                        src="https://www.figma.com/proto/bG2MoH1swY1OleeSng8GJQ/MBTA-Project?node-id=1-1181&p=f&t=qAniVoQRHDgZygLK-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="modal-section">
+                <h3>Key Takeaways</h3>
+                <p>With MBTAFlow, I focused on improving everyday accessibility through design. 
+                    Redesigning the MBTA app helped me develop a deeper understanding of usability, information hierarchy, and inclusive design principles. 
+                    I learned how to simplify complex systems into clear, intuitive experiences that meet the needs of diverse users, especially those navigating public transit for the first time.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function openModal(projectId) {
+            document.getElementById(projectId).style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            const modals = document.querySelectorAll('.modal');
+            modals.forEach(modal => {
+                modal.style.display = 'none';
+            });
+            document.body.style.overflow = 'auto';
+        }
+
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal')) {
+                closeModal();
+            }
+        }
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
